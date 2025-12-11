@@ -30,7 +30,7 @@ def informe_palabras(frase):
     # Ordenar por frecuencia y luego alfabéticamente
     ordenadas = sorted(conteo.items(), key=lambda x: (-x[1], x[0]))
 
-    print("\n📊 Informe de palabras:")
+    print(" Informe de palabras:")
     for palabra, frecuencia in ordenadas:
         print(f"{palabra}: {frecuencia}")
 
